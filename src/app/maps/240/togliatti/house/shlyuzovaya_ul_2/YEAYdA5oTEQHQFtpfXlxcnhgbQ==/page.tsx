@@ -25,7 +25,7 @@ export default function Page() {
   const [showRouteModal, setShowRouteModal] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [routeFrom, setRouteFrom] = useState('');
-  const [routeTo, setRouteTo] = useState('Тольятти, ул. Маршала Жукова, д. 54, этаж 1 офис 1 ком. 3');
+  const [routeTo, setRouteTo] = useState('445015, Самарская область, г. Тольятти, Шлюзовая ул, д. 2, кв. 24');
   const [selectedTransport, setSelectedTransport] = useState<'auto' | 'transit' | 'walk'>('auto');
   const [uploadedPhotos, setUploadedPhotos] = useState<string[]>([]);
   const [isDragging, setIsDragging] = useState(false);
@@ -524,12 +524,12 @@ export default function Page() {
                   <div>
                     <div className="text-[13px] lg:text-[14px] font-medium text-gray-800 mb-0.5">Адрес</div>
                     <a
-                      href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20ул.%20Маршала%20Жукова%2C%20д.%2054"
+                      href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20Шлюзовая%20ул%2C%20д.%202"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[13px] lg:text-[14px] text-blue-600 hover:text-blue-700 hover:underline cursor-pointer"
                     >
-                      Тольятти, ул. Маршала Жукова, д. 54, этаж 1 офис 1 ком. 3
+                      445015, Самарская область, г. Тольятти, Шлюзовая ул, д. 2, кв. 24
                     </a>
                   </div>
                 </div>
@@ -1493,7 +1493,7 @@ export default function Page() {
                     {/* Company Info */}
                     <div className="px-6 pt-3 pb-3">
                       <h3 className="text-[17px] font-medium text-gray-900">ООО ВОЛГА-АВТО</h3>
-                      <a href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20ул.%20Маршала%20Жукова%2C%20д.%2054" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">ул. Маршала Жукова, д. 54, этаж 1 офис 1 ком. 3</a>
+                      <a href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20Шлюзовая%20ул%2C%20д.%202" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">445015, Самарская область, г. Тольятти, Шлюзовая ул, д. 2, кв. 24</a>
                     </div>
 
                     {/* Form */}
@@ -2024,12 +2024,12 @@ export default function Page() {
                           <div className="flex-1 min-w-0">
                             <div className="text-[12px] xs:text-[13px] font-medium text-gray-800 mb-0.5">Адрес</div>
                             <a
-                              href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20ул.%20Маршала%20Жукова%2C%20д.%2054"
+                              href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20Шлюзовая%20ул%2C%20д.%202"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="text-[12px] xs:text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 leading-relaxed block"
                             >
-                              Тольятти, ул. Маршала Жукова, д. 54, этаж 1 офис 1 ком. 3
+                              445015, Самарская область, г. Тольятти, Шлюзовая ул, д. 2, кв. 24
                             </a>
                           </div>
                         </div>
@@ -3325,7 +3325,7 @@ export default function Page() {
               </div>
               <div className="px-6 pt-3 pb-3">
                 <h3 className="text-[17px] font-medium text-gray-900">ООО ВОЛГА-АВТО</h3>
-                <a href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20ул.%20Маршала%20Жукова%2C%20д.%2054" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">ул. Маршала Жукова, д. 54, этаж 1 офис 1 ком. 3</a>
+                <a href="https://yandex.ru/maps/?ll=49.298510%2C53.503439&z=18&text=Тольятти%2C%20Шлюзовая%20ул%2C%20д.%202" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">445015, Самарская область, г. Тольятти, Шлюзовая ул, д. 2, кв. 24</a>
               </div>
               <div className="px-6 pb-6 space-y-4">
                 <div className="flex gap-2 justify-center" onMouseLeave={() => setHoverRatingModal(0)}>
